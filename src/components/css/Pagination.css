@@ -1,0 +1,33 @@
+
+.buttonOne{
+    left:150px;
+    position:absolute;
+    width: 100px;
+    font-size: medium;
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    padding: 5px;
+    cursor: pointer;
+}
+.buttonTwo{
+    right:150px;
+    position:absolute;
+    width: 100px;
+    font-size: medium;
+    border: 1px solid red;
+    background-color: goldenrod;
+    padding: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width:600px){
+    .buttonTwo{
+        right:40px;
+        
+        
+        
+    }
+    .buttonOne{
+        left:40px;
+        
+    }
+}
